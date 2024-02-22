@@ -1,0 +1,49 @@
+{
+    "name": "mmr-web-test-protractor",
+    "version": "1.0.0",
+    "description": "mmr-web-test-master framework",
+     "main": "Heart.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node Heart.js"
+  },
+    "author": "Kishan-Prasthana",
+    "license": "ISC",
+    "dependencies": {
+              "@typed/hashmap": "^1.0.1",
+              "@types/chai": "^4.2.7",
+              "@types/cucumber": "^4.0.7",
+              "@types/jasmine": "^3.5.0",
+              "@types/jasminewd2": "2.0.8",
+              "@types/node": "12.7.9",
+              "chai": "^4.2.0",
+              "chai-as-promised": "^7.1.1",
+              "cucumber": "^5.1.0",
+              "cucumber-html-reporter": "^5.0.2",
+              "jasmine-spec-reporter": "^4.2.1",
+              "libphonenumber-js": "^1.9.49",
+              "log4js": "^6.5.2",
+              "mkdirp": "^0.5.1",
+              "moment": "^2.29.4",
+              "pg": "^8.11.3",
+              "protractor": "^7.0.0",
+              "protractor-api-resource": "^1.0.3",
+              "protractor-cucumber-framework": "^6.2.0",
+              "selenium-webdriver": "^4.2.0",
+              "testrail-integration": "^0.2.5",
+              "testrail-promise": "^0.1.19",
+              "typed-rest-client": "^1.8.4",
+              "typescript": "^3.9.7",
+              "typescript-map": "0.0.7",
+              "web-midi-api": "^2.0.8"
+    },
+    "devDependencies": {
+              "@types/chai": "^4.2.1",
+              "@types/cucumber": "^4.0.7",
+              "@types/node": "^12.7.9",
+              "typescript": "~3.9.7",
+              "ts-node": "^8.0.2",
+              "wdio-cucumberjs-json-reporter": "^1.0.0",
+              "@types/fs-extra": "^8.1.0"
+    }
+}
